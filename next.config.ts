@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  experimental: {
+    cpus: Number(process.env.NEXT_BUILD_CPUS || 1),
+  },
   serverExternalPackages: [],
   async headers() {
     return [

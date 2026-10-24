@@ -99,7 +99,11 @@ export function setSessionCookie(response: NextResponse, token: string) {
   response.cookies.set(SESSION_COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
-    secure: process.env.NODE_ENV === "production" && process.env.BASE_URL?.startsWith("https://"),
+    secure:
+      process.env.NODE_ENV === "production" &&
+      (process.env.BASE_URL?.startsWith("https://") === true ||
+        process.env.RENDER === "true" ||
+        process.env.VERCEL === "1"),
     path: "/",
     maxAge: SESSION_DAYS * 86_400,
   });
@@ -109,7 +113,11 @@ export function clearSessionCookie(response: NextResponse) {
   response.cookies.set(SESSION_COOKIE, "", {
     httpOnly: true,
     sameSite: "lax",
-    secure: process.env.NODE_ENV === "production" && process.env.BASE_URL?.startsWith("https://"),
+    secure:
+      process.env.NODE_ENV === "production" &&
+      (process.env.BASE_URL?.startsWith("https://") === true ||
+        process.env.RENDER === "true" ||
+        process.env.VERCEL === "1"),
     path: "/",
     maxAge: 0,
   });
