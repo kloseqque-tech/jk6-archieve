@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-labelledby="title desc">
+  <title id="title">Matchday geometry</title>
+  <desc id="desc">An original editorial illustration of a football pitch and stadium in archival colors.</desc>
+  <rect width="800" height="980" fill="#faf6ed"/>
+  <rect x="42" y="42" width="716" height="896" rx="2" fill="#f7f3ea" stroke="#dcd2c3"/>
+  <rect x="72" y="84" width="656" height="410" fill="#dce8f3"/>
+  <path d="M72 494V320c48-28 90-74 116-145h176c17 70 57 116 120 142 54 22 111 27 172 12 35-9 55 15 72 51v114z" fill="#fffdf8"/>
+  <path d="M72 378c91-21 165-81 222-180M255 494V420h290v74M392 84v171" fill="none" stroke="#a7b59a" stroke-width="6"/>
+  <g fill="#403a32" font-family="Georgia,serif">
+    <text x="72" y="556" font-size="29" letter-spacing="4">MATCHDAY</text>
+    <text x="640" y="556" text-anchor="end" font-size="22">NO. 01</text>
+    <text x="72" y="640" font-size="78">The space</text>
+    <text x="72" y="712" font-size="78">between</text>
+    <text x="72" y="784" font-size="78">the lines.</text>
+    <text x="72" y="862" font-size="22" fill="#756e64">A field study in parchment, sky and sage.</text>
+  </g>
+  <circle cx="615" cy="733" r="88" fill="#a7b59a" opacity=".26"/>
+  <path d="M563 784c4-73 100-73 104 0M584 706c0-36 62-36 62 0s-62 39-62 0z" fill="none" stroke="#394b60" stroke-width="5"/>
+  <path d="m550 653 65 37 67-37 18 106-48 22-45-28-46 28-33-22z" fill="#394b60"/>
+  <text x="615" y="730" text-anchor="middle" font-size="86" fill="#fffdf8" font-family="Georgia,serif">6</text>
+</svg>

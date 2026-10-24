@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-labelledby="title desc">
+  <title id="title">Words after the whistle</title>
+  <desc id="desc">An original editorial illustration of interview notes and architectural arches.</desc>
+  <rect width="800" height="980" fill="#f7f3ea"/>
+  <rect x="46" y="46" width="708" height="888" fill="#fffdf8" stroke="#dcd2c3"/>
+  <rect x="94" y="98" width="612" height="410" fill="#dce8f3"/>
+  <g fill="none" stroke="#fffdf8" stroke-width="18">
+    <path d="M132 508V332c0-108 160-108 160 0v176M344 508V298c0-104 160-104 160 0v210M566 508V348c0-102 104-102 104 0v160"/>
+  </g>
+  <g fill="#403a32" font-family="Georgia,serif">
+    <text x="94" y="585" font-size="24" letter-spacing="4">THE WORDS / 03</text>
+    <text x="94" y="668" font-size="76">“The next pass</text>
+    <text x="94" y="744" font-size="76">begins before</text>
+    <text x="94" y="820" font-size="76">the ball arrives.”</text>
+    <text x="94" y="890" font-size="19" fill="#756e64">DEMONSTRATION EDITORIAL CARD · NOT A VERIFIED QUOTE</text>
+  </g>
+  <path d="M563 548h142M563 580h142M563 612h107" stroke="#d7bfc0" stroke-width="9"/>
+</svg>
