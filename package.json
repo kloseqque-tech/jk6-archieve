@@ -1,0 +1,32 @@
+{
+  "name": "joshua-kimmich-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A living fan archive for matches, words and moments.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.118.0",
+    "busboy": "1.6.0",
+    "next": "16.4.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.4",
+    "@types/busboy": "1.5.4",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.2.4",
+    "typescript": "5.9.3"
+  }
+}
