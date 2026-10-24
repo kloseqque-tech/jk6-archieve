@@ -1,0 +1,18 @@
+services:
+  archive:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      DATA_DIR: /app/.data
+      BASE_URL: ${BASE_URL:-http://localhost:3000}
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+    volumes:
+      - archive-data:/app/.data
+
+volumes:
+  archive-data:
